@@ -1,0 +1,93 @@
+       {/* <ValidatorForm
+                className="row"
+                onSubmit={handleSubmit}
+                onError={() => null}
+                // autocomplete="off"
+              >
+                <TextField
+                  label="Table No"
+                  select
+                  variant="filled"
+                  value={data.table_no || ""}
+                  helperText="Please Select your Table No "
+                  onChange={handleChange}
+                  name="table_no"
+                  SelectProps={{
+                    native: "true",
+                  }}
+                >
+                  <option />
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                  <option>4</option>
+                  <option>5</option>
+                  <option>6</option>
+                  <option>7</option>
+                </TextField>
+
+                <TextField
+                  className=" mt-4"
+                  name="order_date"
+                  label="Order Date"
+                  InputLabelProps={{ shrink: true }}
+                  type="date"
+                  value={data.order_date || ""}
+                  onChange={handleChange}
+                  errorMessages={["this field is required"]}
+                />
+                <TextField
+                  className=" mt-4"
+                  name="order_time"
+                  label="Order Time"
+                  InputLabelProps={{ shrink: true }}
+                  type="time"
+                  value={data.order_time || ""}
+                  onChange={handleChange}
+                  errorMessages={["this field is required"]}
+                />
+                <TextField
+                  className=" mt-4"
+                  type=""
+                  name="review2"
+                  id="standard-basic"
+                  value={myper || ""}
+                  onChange={handleChange}
+                  errorMessages={["this field is required"]}
+                  label="Discount"
+                  validators={["required"]}
+                />
+                <TextField
+                  className=" mt-4"
+                  type=""
+                  name="review2"
+                  id="standard-basic"
+                  value={totalAmountt || ""}
+                  onChange={handleChange}
+                  errorMessages={["this field is required"]}
+                  label="Total"
+                  validators={["required"]}
+                />
+
+                <TextareaAutosize
+                  className=" mt-4"
+                  name="descreption"
+                  aria-label="empty textarea"
+                  onChange={handleChange}
+                  validators={["required"]}
+                  value={data.descreption || ""}
+                  minRows={3}
+                  placeholder="Descreption..."
+                  style={{ width: "100%" }}
+                />
+                <Button
+                  className="col-12 mt-4 w-25"
+                  style={{
+                    backgroundColor: "#b74160",
+                  }}
+                  variant="contained"
+                  type="submit"
+                >
+                  <PaymentsIcon />
+                </Button>
+              </ValidatorForm> */}

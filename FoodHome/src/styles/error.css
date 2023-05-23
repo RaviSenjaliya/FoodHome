@@ -1,0 +1,21 @@
+.imgg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+     .imgg {
+        width: 100%;
+      }
+    .errortext h1{
+        font-size: 1.1rem;
+      }
+      .errortext h6{
+        font-size: 0.7rem;
+      }
+  }
+  
+  
